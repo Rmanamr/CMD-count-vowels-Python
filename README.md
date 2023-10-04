@@ -1,7 +1,6 @@
 # CMD-count-vowels-Python
 Python CMD program for counting the vowels of the entered text.
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-### V 1.0
 using Python version 3.11.4
 
 You can see the program document by 
