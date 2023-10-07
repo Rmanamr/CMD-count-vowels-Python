@@ -18,6 +18,8 @@ def main():
         print("Please enter your text :")
         input_text = input()
         a, e, i, o, u = vowels_counter(input_text)
+        # passing the input_text to the vowels_counter function and storing the results in variables
+
         print("There are  " 
               +str(a)+ " a,  "
               +str(e)+ " e,  "
@@ -67,3 +69,4 @@ def vowels_counter(text):
 
 if __name__ == '__main__':
     main()
+    # run the main function after executing this file
