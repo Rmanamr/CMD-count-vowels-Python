@@ -6,13 +6,11 @@ using Python version 3.11.4
 contact me at : armanazarnik@gmail.com
 """
 
-
 def main():
-    """
-    main function for interacting with the user
-    """
-
-    while(True):
+     """
+     main function for interacting with the user
+     """
+     while(True):
      # while loop to keep the program running
 
         print("Please enter your text :")
@@ -30,41 +28,39 @@ def main():
 
 
 def vowels_Counter(text):
-   """
-   function for counting number of vowels.
-   
-   @param text: the input string.
-   @type text: string
-   @return: a, e, i, o, u for number of each vowel.
-   @rtype: int
-   @examples: 
-     >>> vowels_Counter("")
+     """
+     function for counting number of vowels.
+     @param text: the input string.
+     @type text: string
+     @return: a, e, i, o, u for number of each vowel.
+     @rtype: int
+     @examples: 
+      >>> vowels_Counter("")
           0, 0, 0, 0, 0
-     >>> vowels_Counter("HELLOW WORLD")
+      >>> vowels_Counter("HELLOW WORLD")
           0, 1, 0, 2, 0
-   """
+     """
+     a = e = i = o = u = 0
+     # initialize variables for vowels
 
-   a = e = i = o = u = 0
-   # initialize variables for vowels
+     for char in text.lower():
+          match char:
+               case 'a':
+                    a += 1
 
-   for char in text.lower():
-       match char:
-           case 'a':
-                a += 1
+               case 'e':
+                    e += 1
 
-           case 'e':
-                e += 1
+               case 'i':
+                    i += 1 
 
-           case 'i':
-                i += 1 
+               case 'o':
+                    o += 1
 
-           case 'o':
-                o += 1
+               case 'u':
+                    u += 1
 
-           case 'u':
-                u += 1
-
-   return a, e, i, o, u
+     return a, e, i, o, u
 
 
 if __name__ == '__main__':
