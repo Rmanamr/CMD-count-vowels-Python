@@ -3,11 +3,13 @@ Python CMD program for counting the vowels of the entered text.
 using Python version 3.11.4  
 
 Run the program using :  
-"python CMD-count-vowels.py"  
+CMD_count_vowels.exe  
+or typing :  
+"python CMD_count_vowels.py" in Windows CMD  
 while CMD is in the CMD-count-vowels.py directory  
 
 You can see the program document using :  
-"python -m pydoc CMD-count-vowels"  
+"python -m pydoc CMD_count_vowels"  
  while CMD is in the CMD-count-vowels.py directory  
   
 Feel free to contact me at:  
