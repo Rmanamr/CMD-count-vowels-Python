@@ -16,9 +16,9 @@ def main():
      # while loop to keep the program running
 
         print("Please enter your text :")
-        input_text = input()
-        a, e, i, o, u = vowels_counter(input_text)
-        # passing the input_text to the vowels_counter function and storing the results in variables
+        input_Text = input()
+        a, e, i, o, u = vowels_Counter(input_Text)
+        # passing the input_Text to the vowels_Counter function and storing the results in variables
 
         print("There are  " 
               +str(a)+ " a,  "
@@ -29,7 +29,7 @@ def main():
         print("**************************")
 
 
-def vowels_counter(text):
+def vowels_Counter(text):
    """
    function for counting number of vowels.
    
@@ -38,9 +38,9 @@ def vowels_counter(text):
    @return: a, e, i, o, u for number of each vowel.
    @rtype: int
    @examples: 
-     >>> vowels_counter("")
+     >>> vowels_Counter("")
           0, 0, 0, 0, 0
-     >>> vowels_counter("HELLOW WORLD")
+     >>> vowels_Counter("HELLOW WORLD")
           0, 1, 0, 2, 0
    """
 
