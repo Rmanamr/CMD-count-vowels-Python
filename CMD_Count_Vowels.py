@@ -44,13 +44,15 @@ def vowels_Counter(text):
      # initialize variables for vowels
 
      for char in text.lower():
+     # lower casing the text for counting the captial letters and small letters of a vowel as one
+     
           match char:
                case 'a':
                     a += 1
 
                case 'e':
                     e += 1
-
+                    
                case 'i':
                     i += 1 
 
